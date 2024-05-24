@@ -1,0 +1,83 @@
+
+body{
+
+    font-family: "Poppins",sans-serif;
+    
+    }
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.logo,.search{
+
+color: darkcyan;
+
+
+}
+
+
+.searchbar{
+
+display: flex;
+justify-content:space-around;
+border: solid black;
+padding: 10px;
+width:50%;
+border-radius: 30px;
+align-items: center;
+
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+   
+
+}
+
+.filtersection{
+
+display: flex;
+justify-content: space-around;
+padding: 10px;
+
+
+}
+
+.filterbox:hover{
+
+margin-top:20px
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

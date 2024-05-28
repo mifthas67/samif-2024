@@ -1,83 +1,128 @@
+body {
 
-body{
+    font-family: "Poppins", sans-serif;
 
-    font-family: "Poppins",sans-serif;
-    
-    }
+}
 
-*{
+* {
 
     margin: 0;
     padding: 0;
 }
 
-.logo,.search{
+.logo,
+.search {
 
-color: darkcyan;
+    color: rgb(242, 35, 28);
 
 
 }
 
+.moto {
 
-.searchbar{
-
-display: flex;
-justify-content:space-around;
-border: solid black;
-padding: 10px;
-width:50%;
-border-radius: 30px;
-align-items: center;
+    color: blue;
+    font-style: italic;
 
 }
 
-.header{
+
+.searchbar {
+
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+    padding: 10px;
+    width: 50%;
+    border-radius: 30px;
+    align-items: center;
+
+}
+
+.header {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-   
-
-}
-
-.filtersection{
-
-display: flex;
-justify-content: space-around;
-padding: 10px;
 
 
 }
 
-.filterbox:hover{
+h3 {
 
-margin-top:20px
+    text-align: center;
+    color: blue;
+}
+
+.filtersection {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 
 
 }
-    
+
+.filterbox:hover {
+
+    margin-top: 20px
+}
+
+.projects-container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img:hover {
+
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+img {
+
+    border-radius: 5px;
+
+}
+
+.products-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+
+}
 
 
 
 
+h5,
+h6 {
+
+    background-color: black;
+
+    color: grey;
+    text-align: center;
 
 
+}
+
+.user_comments{
+
+    display: flex;
+    background-color: aquamarine;
+    width: 400px;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: baseline;
+    margin: auto;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
